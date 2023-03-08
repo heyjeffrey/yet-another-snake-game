@@ -8,7 +8,7 @@ LEFT=180
 RIGHT=0
 
 class Snake:
-    def __int__(self):
+    def __init__(self):
         self.segments = []
         # segments = []
         self.create_snake()
